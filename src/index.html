@@ -14,102 +14,139 @@
      onsubmit="onSubmit">
       <fieldset class="fieldset">
         <legend>Personal information</legend>
-        <div class="field">
-          <label for="sname">Surname:</label>
-          <input type="text" id="sname"
-          name="sname"
-          autocomplete="off">
-        </div>
-        <div class="field">
-          <label for="name">Name:</label>
-          <input type="text" id="name"
-          name="name"
-          autocomplete="off">
-        </div>
-        <div class="field">
-          <label for="old">How old are You?</label>
-          <input type="number" id="old"
-          name="old"
-          min="1" max="100"
-          value="12">
-        </div>
-        <div class="field">
-          <label for="fulldate">Full date of birth:</label>
-          <input type="date" id="fulldate"
-          name="fulldate">
-        </div>
-        <div class="field">
-          <label for="agree"> Accept the tern of the agreement</label>
-          <input type="checkbox" id="agree"
-          name="agree">
-        </div>
+        <label for="sname" class="field">
+          Surname:
+          <input
+            type="text"
+            id="sname"
+            name="sname"
+            autocomplete="off"
+          >
+        </label>
+        <label for="name" class="field">
+          Name:
+          <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="off"
+          >
+        </label>
+        <label for="old" class="field">
+          How old are You?
+          <input
+            type="number"
+            id="old"
+            name="old"
+            min="1"
+            max="100"
+            value="12"
+          >
+        </label>
+        <label for="fulldate" class="field">
+            Full date of birth:
+          <input
+            type="date"
+            id="fulldate"
+            name="fulldate"
+          >
+        </label>
+        <label for="agree" class="field">
+            Accept the tern of the agreement
+          <input
+            type="checkbox"
+            id="agree"
+            name="agree"
+          >
+        </label>
       </fieldset>
       <fieldset class="fieldset">
         <legend>Registration</legend>
-        <div class="field">
-          <label for="email">E-mail:</label>
-          <input type="email" id="email"
-          name="email" placeholder="email@example.com"
-          autocomplete="off">
-        </div>
-        <div class="field">
-          <label for="password">Password:</label>
-          <input type="password" id="password"
-          name="password">
-        </div>
+        <label for="email" class="field">
+          E-mail:
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email@example.com"
+            autocomplete="off"
+          >
+        </label>
+        <label for="password" class="field">
+            Password:
+          <input
+            type="password"
+            id="password"
+            name="password"
+          >
+        </label>
       </fieldset>
       <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
         <div class="field">
           <label for="cat">Do you love cats?</label>
-          <input type="radio" id="cat"
-          name="cat"
-          value="Yes">
+          <input
+            type="radio"
+            id="cat"
+            name="cat"
+            value="Yes"
+          >
           <label for="catno">Yes</label>
-          <input type="radio" id="catno"
-          name="cat"
-          value="No">
+          <input
+            type="radio" id="catno"
+            name="cat"
+            value="No"
+          >
           <label for="cat">No</label>
         </div>
-        <div class="field">
-          <label for="color">What is your favorite color?</label>
-          <input type="color" id="color"
-          name="color">
-        </div>
-        <div class="field">
-          <label for="gobed">What time do you go to bed?</label>
-          <input type="time" id="gobed"
-          name="gobed">
-        </div>
-        <div class="field">
-          <label for="car">What are your favourite brand of cars?</label>
+        <label for="color" class="field">
+          What is your favorite color?
+          <input
+            type="color"
+            id="color"
+            name="color"
+          >
+        </label>
+        <label for="gobed" class="field">
+          What time do you go to bed?
+          <input
+            type="time"
+            id="gobed"
+            name="gobed"
+          >
+        </label>
+        <label for="car" class="field">
+          What are your favourite brand of cars?
           <select id="car" multiple>
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="Lada">Lada</option>
           </select>
-        </div>
-        <div class="field">
-          <label for="rate">How do you rate our work?</label>
-          <input type="range" id="rate"
-          name="rate">
-        </div>
+        </label>
+        <label for="rate" class="field">
+          How do you rate our work?
+          <input
+            type="range"
+            id="rate"
+            name="rate"
+          >
+        </label>
       </fieldset>
       <fieldset class="fieldset">
         <legend>Additional info:</legend>
-        <div class="field">
-          <label for="comment">Comments:</label>
+        <label for="comment" class="field">
+          Comments:
           <textarea name="comment" id="comment"
-          autocomplete="off">
+            autocomplete="off">
           </textarea>
-        </div>
-        <div class="field">
-          <label for="recommend">Would you recommend us?</label>
+        </label>
+        <label for="recommend" class="field">
+          Would you recommend us?
           <select name="recommend" id="recommend">
             <option value="Yes">yes</option>
             <option value="No">no</option>
           </select>
-        </div>
+        </label>
       </fieldset>
       <button type="submit">Submit</button>
     </form>

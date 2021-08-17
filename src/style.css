@@ -1,10 +1,6 @@
-/* styles go here */
-.field {
+.field:not(:last-child) {
   margin-bottom: 10px;
-}
-
-.field:last-child {
-  margin-bottom: 0;
+  display: block;
 }
 
 .fieldset {
